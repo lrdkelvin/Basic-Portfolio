@@ -1,0 +1,26 @@
+.HeaderMain{
+    background-color: #ffffff;
+    width: 25%;
+    color: ;
+}
+.HeaderText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+#ProfilePic{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.SubBox{
+    background-color: #cccccc;
+    border-width: 10px, 10px, 10px, 10px;
+}
+
+.PageHeader{
+    color: #4aaaa5;
+}
