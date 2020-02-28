@@ -1,26 +1,58 @@
-.HeaderMain{
+.HeaderBox{
+    height:82px;
     background-color: #ffffff;
-    width: 25%;
-    color: ;
+    border-bottom: #8d8d8d;
+    border-bottom: 1px;
+    border-style: solid;
 }
 .HeaderText{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
     color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    padding:25px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #4aaaa5;
+    float: left;
+}
+.AboutLink{
+    float: right;
+    padding-left: 19px;
+    margin-right: 50px;
+    margin-top: 32px;
+}
+.PortfolioLink{
+    float: right;
+    margin-top: 32px;
+    padding-left: 19px;
+    padding-right: 20px;
+    border-right: solid;
+    border-width: 1px;
+}
+.ContactLink{
+    float: right;
+    padding-right: 20px;
+    border-right: solid;
+    border-right-width: 1px;
+    margin-top: 32px;
 }
 
 #ProfilePic{
     float: left;
+    position: relative;
     height: 100px;
     width: 100px;
-    margin: auto;
 }
 
 .SubBox{
+    width: 960px
     background-color: #cccccc;
+    border: solid
     border-width: 10px, 10px, 10px, 10px;
 }
 
 .PageHeader{
     color: #4aaaa5;
+    font-weight: bold;
 }
