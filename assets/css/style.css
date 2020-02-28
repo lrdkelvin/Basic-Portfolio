@@ -30,12 +30,12 @@ body{
     color:#888888;
     float: right;
     border-right: 1px;
-    border-color: #888888;
+    border-color: #777777;
 }
 
 .PortfolioLink{
     position: relative;
-    color:#888888;
+    color:#777777;
     margin-top: 30px;
     float: right;
     border-right:solid;
@@ -46,11 +46,11 @@ body{
 }
 .AboutLink{
     position: relative;
-    color:#888888;
+    color:#777777;
     margin-top: 30px;
     float: right;
     border-right:solid;
-    border-color: #888888;
+    border-color: #777777;
     border-right-width: 1px;
     margin-right: 10px;
     padding-right: 10px;
@@ -89,7 +89,7 @@ body{
     margin-top: 20px;
     line-height: 35px;
     opacity: initial; 
-    color: #888888;
+    color: #777777;
     margin-left: 20px;
 }
 
@@ -138,7 +138,7 @@ position: sticky
 
 .SubBox2{
     width: 960px;
-    height: 900px;
+    height: 830px;
     background-color: #ffffff;
     border: solid;
     margin-left: 200px;
@@ -157,8 +157,6 @@ position: sticky
     margin-top: 30px;
     height:200px;
     width:280px;
-    border:solid;
-    border-width: 3px;
     z-index: -2;
 }
 .image1box{
@@ -191,8 +189,6 @@ position: sticky
     margin-top: 30px;
     height:200px;
     width:280px;
-    border:solid;
-    border-width: 3px;
     z-index: -2;
 }
 .image2box{
@@ -225,8 +221,6 @@ position: sticky
     margin-top: 50px;
     height:200px;
     width:280px;
-    border:solid;
-    border-width: 3px;
     z-index: -2;
 }
 .image3tree{
@@ -259,8 +253,6 @@ position: sticky
     margin-top: 50px;
     height:200px;
     width:280px;
-    border:solid;
-    border-width: 3px;
     z-index: -2;
 }
 
@@ -294,8 +286,6 @@ position: sticky
     margin-top: 50px;
     height:200px;
     width:280px;
-    border:solid;
-    border-width: 3px;
     z-index: -2;
 }
 
@@ -322,3 +312,110 @@ position: sticky
     color: #ffffff;
 }
 
+.SubBox3{
+    width: 960px;
+    height: 450px;
+    background-color: #ffffff;
+    border: solid;
+    border-width: 10px, 10px, 10px, 10px;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 40px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    border-color: #dddddd;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+.contentbox{
+    margin-left: 10px;
+    color: #777777;
+}
+
+.Namebox{
+    position: absolute;
+    height:20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dddddd;
+    width: 940px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    padding:5px;
+    padding-top: 10px;
+}
+
+.Nameboxex{
+    position: absolute;
+    float: left;
+    font-size: 1em;
+    color: #dddddd;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.name{
+    margin-top: 200px;
+
+}
+
+.Emailbox{
+    position: absolute;
+    height:20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dddddd;
+    width: 940px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    padding:5px;
+    padding-top: 10px;
+}
+
+.Emailboxex{
+  position: absolute;
+    float: left;
+    font-size: 1em;
+    color: #dddddd;
+
+}
+
+.Messagebox{
+    position: absolute;
+    height:130px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dddddd;
+    width: 940px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    padding:5px;
+    padding-top: 10px;
+}
+
+.Submitbtn {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 170px;
+}
